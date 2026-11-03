@@ -1,0 +1,5 @@
+body { background: url(img/fundo.jpg); font-family: "Papyrus" }
+.carta { width: 200px; border: 3px solid gold; background: #fff8 }
+.carta img { width: 100%; height: 150px }
+textarea { width: 100% }
+#logBatalha { height: 100px; overflow: hidden }

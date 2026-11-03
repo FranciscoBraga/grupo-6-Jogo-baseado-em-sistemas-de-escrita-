@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lendas da Escrita</title>
+<link href="/static/jogo.css" rel="stylesheet">
+</head>
+<body>
+<h1>Lendas da Escrita</h1>
+<p>Escreva a história do seu herói e ele ganhará vida!</p>
+
+<div id="criacao">
+  <input id="nomeHeroi" placeholder="Nome do herói">
+  <textarea id="historia" rows="8" placeholder="Era uma vez um guerreiro forte com uma espada..."></textarea>
+  <button id="criar">Criar herói</button>
+</div>
+
+<div id="carta"></div>
+
+<h2>Arena</h2>
+<select id="lutador1"></select> VS <select id="lutador2"></select>
+<button onclick="lutar()">Lutar!</button>
+<div id="logBatalha"></div>
+
+<h2>Evoluir</h2>
+<input id="idEvoluir" placeholder="id">
+<input id="formula" placeholder="ex: forca * 2">
+<button onclick="evoluir()">Evoluir</button>
+
+<script src="/static/jogo.js"></script>
+</body>
+</html>
